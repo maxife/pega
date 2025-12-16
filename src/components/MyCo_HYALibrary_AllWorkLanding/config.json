@@ -1,0 +1,87 @@
+{
+    "name": "MyCo_HYALibrary_AllWorkLanding",
+    "label": "All Work Landing Page",
+    "description": "All Work Landing Page",
+    "organization": "MyCo",
+    "version": "1.0.1",
+    "library": "HYALibrary",
+    "allowedApplications": [],
+    "componentKey": "MyCo_HYALibrary_AllWorkLanding",
+    "type": "Widget",
+    "subtype": [
+        "PAGE",
+        "CASE"
+    ],
+    "properties": [
+        {
+            "name": "heading",
+            "label": "Heading",
+            "format": "TEXT"
+        },
+        {
+            "name": "dataPage",
+            "label": "Data Page name",
+            "format": "TEXT"
+        },
+        {
+            "name": "setCaseID",
+            "label": "Pass case context to the Data page as parameter",
+            "format": "BOOLEAN"
+        },
+        {
+            "name": "iconName",
+            "label": "Icon",
+            "format": "SELECT",
+            "defaultValue": "clipboard",
+            "source": [
+                {
+                    "key": "information",
+                    "value": "information"
+                },
+                {
+                    "key": "polaris",
+                    "value": "polaris"
+                },
+                {
+                    "key": "clipboard",
+                    "value": "clipboard"
+                }
+            ]
+        },
+        {
+            "name": "primaryField",
+            "label": "Primary field",
+            "format": "TEXT"
+        },
+        {
+            "name": "secondaryFields",
+            "label": "Secondary fields (comma-separated)",
+            "format": "TEXT"
+        },
+        {
+            "name": "secondaryFieldTypes",
+            "label": "Secondary field types (comma-separated)",
+            "format": "TEXT"
+        },
+        {
+            "format": "LABEL",
+            "label": "About",
+            "name": "PegaAboutLabel",
+            "variant": "h3"
+        },
+        {
+            "format": "LABEL",
+            "label": "MyCo_HYALibrary 1.0.1, Sun Dec 14 2025, 25.1.1-199",
+            "name": "PegaAboutData",
+            "variant": "primary"
+        }
+    ],
+    "defaultConfig": {
+        "heading": "List of objects",
+        "setCaseID": false,
+        "iconName": "clipboard"
+    },
+    "buildDate": "2025-12-13T23:37:52.238Z",
+    "infinityVersion": "25.1.1-199",
+    "packageCosmosVersion": "8.9.4"
+}

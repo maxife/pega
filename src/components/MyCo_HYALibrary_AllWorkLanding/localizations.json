@@ -1,0 +1,18 @@
+{
+  "fr": {
+    "Heading": "Mes dossiers",
+    "Filters.All": "Tous",
+    "Filters.Projects": "Projets",
+    "Filters.Active": "Actifs",
+    "Filters.Closed": "Clôturé",
+    "Table.ID": "N° dossier",
+    "Table.Label": "Libellé",
+    "Table.Status": "Statut",
+    "Table.CreatedOn": "Créé le",
+    "Table.Creator": "Créé par",
+    "Table.Class": "Classe",
+    "Preview.Title": "Prévisualisation",
+    "Preview.ManagedBy": "Gestion par",
+    "Preview.More": "Afficher plus de détails"
+  }
+}
